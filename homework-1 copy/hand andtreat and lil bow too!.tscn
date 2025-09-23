@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://d3yn8tfrx13g2"]
+
+[ext_resource type="Texture2D" uid="uid://ccu83blem2b5o" path="res://178865727_10711152.png" id="1_s8em8"]
+[ext_resource type="Texture2D" uid="uid://dj03plc1t050n" path="res://—Pngtree—a light brown dog biscuit_20983518.png" id="2_odcsc"]
+[ext_resource type="Texture2D" uid="uid://dxdx42ys3jjrn" path="res://7hpmull0b9q0pbu6r0kp6r0rea-44f05e9d74dc025609498e4d8e2517da.png" id="3_0mjp1"]
+
+[node name="17886572710711152" type="Sprite2D"]
+position = Vector2(526, 325.99997)
+scale = Vector2(0.13536043, 0.13536043)
+texture = ExtResource("1_s8em8")
+
+[node name="—pngtree—aLightBrownDogBiscuit20983518" type="Sprite2D" parent="."]
+position = Vector2(435.87347, -339.83325)
+rotation = -0.42760566
+scale = Vector2(0.5625443, 0.56474304)
+texture = ExtResource("2_odcsc")
+
+[node name="7Hpmull0b9q0Pbu6r0Kp6r0Rea44f05e9d74Dc025609498e4d8e2517Da" type="Sprite2D" parent="."]
+position = Vector2(443.26086, -406.32242)
+rotation = 0.715585
+scale = Vector2(2.6154892, 2.615489)
+texture = ExtResource("3_0mjp1")

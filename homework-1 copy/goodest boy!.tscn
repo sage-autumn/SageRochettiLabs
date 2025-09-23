@@ -1,0 +1,51 @@
+[gd_scene load_steps=4 format=3 uid="uid://11j2d4q0cdbu"]
+
+[ext_resource type="Texture2D" uid="uid://ry3cpp0jrrgl" path="res://cute-dog-portrait-isolated.png" id="1_h7vt0"]
+[ext_resource type="PackedScene" uid="uid://d3yn8tfrx13g2" path="res://hand andtreat and lil bow too!.tscn" id="2_pqj72"]
+[ext_resource type="Texture2D" uid="uid://d0lo0jgn03ckr" path="res://—Pngtree—birthday hat color paper hat_6473817.png" id="3_ebfem"]
+
+[node name="CuteDogPortraitIsolated" type="Sprite2D"]
+position = Vector2(518.00006, 304)
+scale = Vector2(0.119451635, 0.11913155)
+texture = ExtResource("1_h7vt0")
+
+[node name="17886572710711152" parent="." instance=ExtResource("2_pqj72")]
+modulate = Color(0.4509804, 0.6784314, 1, 1)
+position = Vector2(-2461.2478, -235.03441)
+scale = Vector2(0.7802162, 0.7802162)
+
+[node name="17886572710711153" parent="." instance=ExtResource("2_pqj72")]
+position = Vector2(-2352.4165, -2014.5796)
+rotation = 0.6702064
+scale = Vector2(0.7699243, 0.7699243)
+
+[node name="17886572710711154" parent="." instance=ExtResource("2_pqj72")]
+modulate = Color(0.48235294, 0.8745098, 0.80784315, 1)
+position = Vector2(-2260.329, 1829.9099)
+rotation = -0.5497787
+scale = Vector2(0.7851496, 0.7851496)
+
+[node name="17886572710711155" parent="." instance=ExtResource("2_pqj72")]
+modulate = Color(0.8352941, 0.6117647, 0.9529412, 1)
+position = Vector2(1732.9186, 1888.6683)
+rotation = 4.941027
+scale = Vector2(0.7737053, 0.77370536)
+
+[node name="17886572710711156" parent="." instance=ExtResource("2_pqj72")]
+modulate = Color(0.8784314, 0.6784314, 0.37254903, 1)
+position = Vector2(3976.5046, 235.03442)
+rotation = -1.2042772
+scale = Vector2(1.241081, 1.2410811)
+
+[node name="17886572710711157" parent="." instance=ExtResource("2_pqj72")]
+modulate = Color(1, 1, 0.24313726, 1)
+position = Vector2(-519.03906, 2518.2246)
+rotation = -0.36651915
+scale = Vector2(0.53019357, 0.5301935)
+
+[node name="—pngtree—birthdayHatColorPaperHat6473817" type="Sprite2D" parent="."]
+position = Vector2(-770.1868, -1527.7231)
+rotation = -0.6702064
+scale = Vector2(0.48828074, 0.48828074)
+skew = 0.090757124
+texture = ExtResource("3_ebfem")
