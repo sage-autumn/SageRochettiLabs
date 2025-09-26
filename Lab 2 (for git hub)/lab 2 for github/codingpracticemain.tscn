@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://don7yrvdvtld3"]
+
+[ext_resource type="PackedScene" uid="uid://b8sjb5qpkbiy0" path="res://robotboy.tscn" id="1_acmqh"]
+[ext_resource type="Texture2D" uid="uid://87tt7qla8y4k" path="res://icon.svg" id="1_pkf2a"]
+[ext_resource type="Script" uid="uid://gnje6vhub4bd" path="res://icon.gd" id="2_acmqh"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" parent="." instance=ExtResource("1_acmqh")]
+position = Vector2(106, 539)
+
+[node name="Icon2" parent="." instance=ExtResource("1_acmqh")]
+position = Vector2(328, 541)
+
+[node name="Icon3" type="Sprite2D" parent="."]
+modulate = Color(1, 0.24705882, 1, 1)
+position = Vector2(560, 533)
+texture = ExtResource("1_pkf2a")
+script = ExtResource("2_acmqh")
